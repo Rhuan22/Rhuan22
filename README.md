@@ -44,11 +44,11 @@ Sou uma pessoa apaixonada por tecnologia e desenvolvimento, sempre transformando
 ## 🕹️ Meu mini jogo
 
 <div align="center">
-  <a href="https://rhuan22.github.io/Rhuan22/mario.html">
-    <img src="./assets/snake.svg" alt="Prévia pixel-art do mini jogo de plataforma" width="100%" />
+  <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/Rhuan22/Rhuan22/main/mario.html">
+    <img src="./assets/mario.svg" alt="Prévia pixel-art do mini jogo de plataforma" width="100%" />
   </a>
   <br />
-  <a href="https://rhuan22.github.io/Rhuan22/mario.html"><strong>▶ Jogar agora no navegador</strong></a>
+  <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/Rhuan22/Rhuan22/main/mario.html"><strong>▶ Jogar agora no navegador</strong></a>
 </div>
 
 <div align="center">
