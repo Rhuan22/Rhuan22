@@ -41,12 +41,16 @@ Sou uma pessoa apaixonada por tecnologia e desenvolvimento, sempre transformando
 | [JARVIS-chatbot](https://github.com/Rhuan22/JARVIS-chatbot) | Chatbot em Python com memória e integração com IA. |
 | [Sitejudo](https://github.com/Rhuan22/Sitejudo) | Experiência web focada em apresentação e usabilidade. |
 
-## 🐍 A cobrinha está sempre se mexendo
+## 🕹️ Meu mini jogo
 
 <div align="center">
-  <img src="./assets/snake.svg" alt="Cobrinha neon percorrendo um labirinto" width="100%" />
+  <a href="https://rhuan22.github.io/Rhuan22/mario.html">
+    <img src="./assets/snake.svg" alt="Prévia pixel-art do mini jogo de plataforma" width="100%" />
+  </a>
+  <br />
+  <a href="https://rhuan22.github.io/Rhuan22/mario.html"><strong>▶ Jogar agora no navegador</strong></a>
 </div>
 
 <div align="center">
-  <sub>Feito com curiosidade, código e um pouco de neon.</sub>
+  <sub>Use as setas ou A/D para andar, Espaço/W/↑ para pular e pegue todas as moedas.</sub>
 </div>
