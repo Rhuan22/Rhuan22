@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Cobrinha neon animada percorrendo uma grade">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050816"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="snake" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".45" stop-color="#34d399"/><stop offset="1" stop-color="#a7f3d0"/></linearGradient>
+    <filter id="neon"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#334155" stroke-opacity=".35"/></pattern>
+  </defs>
+  <rect width="1200" height="260" rx="22" fill="url(#night)"/><rect x="26" y="24" width="1148" height="212" rx="16" fill="url(#grid)" stroke="#334155"/>
+  <text x="58" y="64" fill="#94a3b8" font-family="monospace" font-size="15" letter-spacing="3">AUTONOMOUS_MODE // SNAKE.EXE</text>
+  <g fill="#fb7185" filter="url(#neon)"><circle cx="900" cy="96" r="7"><animate attributeName="opacity" values="1;.35;1" dur="1.1s" repeatCount="indefinite"/></circle></g>
+  <g fill="none" stroke="url(#snake)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" filter="url(#neon)">
+    <path d="M160 168 H300 V104 H470 V168 H640 V104 H810 V168 H980 V104 H1060">
+      <animate attributeName="stroke-dasharray" values="0 1700;1700 0" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#ecfeff" stroke="#22d3ee" stroke-width="3"><circle cx="1060" cy="104" r="13"><animateMotion dur="6s" repeatCount="indefinite" path="M0 64 H-170 V0 H-340 V64 H-510 V0 H-680 V64 H-850 V0"/></circle></g>
+  <g fill="#fbbf24"><circle cx="300" cy="104" r="6"/><circle cx="640" cy="104" r="6"/><circle cx="980" cy="104" r="6"/></g>
+  <text x="58" y="210" fill="#67e8f9" font-family="monospace" font-size="14">STATUS: <tspan fill="#86efac">MOVING</tspan>  ·  SCORE: ∞  ·  ENERGY: 100%</text>
+</svg>
